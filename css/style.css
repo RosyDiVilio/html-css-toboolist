@@ -40,7 +40,7 @@ nav{
 
 .option{
     border-radius: 6px;
-    padding: 5px;
+    padding: 5px 10px;
     background-color: white;
 }
 
@@ -58,14 +58,14 @@ nav :last-child{
 }
 
 section{
-    padding: 25px 40px;
+    padding: 15px 40px 0;
 }
 
 section div{
-    margin-bottom: 5px;
-}
+    margin: 10px 0 0 0;
+}    
 
-h3{
+h4{
     display: inline-block;
 }
 
@@ -77,13 +77,37 @@ h3{
     font-size: xx-small;
 }
 
+.text{
+    font-size: 15px;
+}
+
 .but{
     border-radius: 20px;
-    padding: 7px;
+    padding: 5px 10px;
     border: none;
     color: white;
 }
 
 .blu{
     background-color: #09a9ed;
+}
+
+.purple{
+    background-color: #ab5de6;
+}
+
+.red{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: xx-small;
+}
+
+.aquamarine{
+    background-color: #2cc6ab;
+}
+
+.orange{
+    background-color: #ff9b00;
 }
